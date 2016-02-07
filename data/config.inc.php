@@ -38,8 +38,8 @@ SESSION_MEMCACHED : 存储session数据的memcached服务器(服务器地址1:�
 */
 
 return array (
-  'SITE_URL' => 'http://test.woolh.com:8009',
-  'DB_CONFIG' => 'mysql://root:123@localhost:3306/ecmall',
+  'SITE_URL' => 'http://localhost/Online',
+  'DB_CONFIG' => 'mysql://root:@localhost:3306/ecmall',
   'DB_PREFIX' => 'ecm_',
   'LANG' => 'sc-utf-8',
   'COOKIE_DOMAIN' => '',
